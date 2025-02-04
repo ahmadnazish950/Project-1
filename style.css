@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(199, 197, 197);
+}
+#one{
+    padding: 10px;
+}
+
+#three{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 60%;
+    padding: 20px;
+    background-color: rgb(83, 182, 222);
+}
+
+#three a{
+    text-decoration: none;
+    color: white;
+}
+
+#sectionone{
+
+    width: 100%;
+    height: 800px;
+    background-color: rgb(231, 220, 220);
+    margin-top: 50px;
+    border-radius: 10px;
+       
+
+}
+
+h2{
+    padding: 20px
+}
+
+p{
+    
+    padding: 10px;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+#img img{
+    border-radius: 8px;
+}
+
+.list h3{
+     padding: 15px;
+}
+
+.list ul{
+    padding-top: 10px;
+    padding-left: 75px;
+    padding-bottom: 10px;
+
+
+}
+.list li{
+    padding-bottom: 10px;
+}
+
+#sectiontwo{
+
+    width: 100%;
+    height: 650px;
+    background-color: rgb(231, 220, 220);
+    margin-top: 45px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+       
+
+}
+
+.two h2{
+    padding: 15px;
+}
+
+.listtwo ol{
+    padding-left: 60px;
+    
+}
+
+.listtwo dt{
+    padding-left: 30px;
+}
+
+.listtwo ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.listtwo li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.another ol{
+    padding-top: 10px;
+    padding-left: 90px;
+}
+
+.another li{
+    padding-bottom: 10px;
+}
+
+.space{
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background-color: rgb(42, 42, 42);
+}
